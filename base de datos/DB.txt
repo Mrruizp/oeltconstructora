@@ -1,0 +1,6 @@
+tipodb = 'mysql';
+rutadb = 'localhost';
+usuariodb = 'vichitor_oleuser';
+clavedb = 'zE!Ya21+XxaZ';
+nombredb = 'vichitor_dbolet';
+prefijodb = '';
