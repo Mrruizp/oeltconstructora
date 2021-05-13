@@ -18,7 +18,7 @@
 						<div class="col-md-12 col-sm-12 col-xs-12">
 							<h2>Servicios</h2>
 							<ul class="bread-list">
-								<li><a href="http://www.oeltconstructora.com/index.html">Inicio<i class="fa fa-angle-right"></i></a></li>
+								<li><a href="index.php">Inicio<i class="fa fa-angle-right"></i></a></li>
 																<li class="active"><a href="#">Servicios</a></li>
 							</ul>
 						</div>

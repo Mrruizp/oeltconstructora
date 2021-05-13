@@ -3,7 +3,7 @@
     <div class="col-md-3 col-sm-3 col-xs-12">
       <!-- Logo -->
       <div class="logo">
-        <a href="http://localhost/oelt/index.html"><img src="http://localhost/oelt/images/logo.png" alt="logo"></a>
+        <a href="index.php"><img src="../util/oelt/images/logo.png" alt="logo"></a>
       </div>
       <!--/ End Logo -->
       <div class="mobile-nav"></div>

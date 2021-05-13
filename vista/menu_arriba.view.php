@@ -20,7 +20,12 @@ switch ($cadena) {
         echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
         echo "<li><a href='servicios.php'>Servicios</a></li>";
         echo "<li><a href='catalogo.php'>Catálogo</a></li>";
-        echo "<li><a href='capacitacion.php'>Capacitación</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
         echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
@@ -30,7 +35,12 @@ switch ($cadena) {
         echo "<li class='active'><a href='nosotros.php'>Quienes somos</a></li>";
         echo "<li><a href='servicios.php'>Servicios</a></li>";
         echo "<li><a href='catalogo.php'>Catálogo</a></li>";
-        echo "<li><a href='capacitacion.php'>Capacitación</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
         echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
@@ -40,7 +50,12 @@ switch ($cadena) {
         echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
         echo "<li class='active'><a href='servicios.php'>Servicios</a></li>";
         echo "<li><a href='catalogo.php'>Catálogo</a></li>";
-        echo "<li><a href='capacitacion.php'>Capacitación</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
         echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
@@ -50,17 +65,44 @@ switch ($cadena) {
         echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
         echo "<li><a href='servicios.php'>Servicios</a></li>";
         echo "<li class='active'><a href='catalogo.php'>Catálogo</a></li>";
-        echo "<li><a href='capacitacion.php'>Capacitación</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
         echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
-    case 'capacitacion.php':
+    case 'cursos.php':
         echo "<li><a href='index.php'>Inicio</a></li>";
         echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
         echo "<li><a href='servicios.php'>Servicios</a></li>";
         echo "<li><a href='catalogo.php'>Catálogo</a></li>";
-        echo "<li class='active'><a href='capacitacion.php'>Capacitación</a></li>";
+        echo "
+                <li  class='active'><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
+        echo "<li><a href='intranet.php'>Intranet</a></li>";
+        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='contacto.php'>Contacto</a></li>";
+        break;
+    case 'diplomados.php':
+        echo "<li><a href='index.php'>Inicio</a></li>";
+        echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
+        echo "<li><a href='servicios.php'>Servicios</a></li>";
+        echo "<li><a href='catalogo.php'>Catálogo</a></li>";
+        echo "
+                <li  class='active'><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li><a href='cursos.php'>Cursos</a></li>
+                        <li class='active'><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
         echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
@@ -70,7 +112,12 @@ switch ($cadena) {
         echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
         echo "<li><a href='servicios.php'>Servicios</a></li>";
         echo "<li><a href='catalogo.php'>Catálogo</a></li>";
-        echo "<li><a href='capacitacion.php'>Capacitación</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
         echo "<li class='active'><a href='intranet.php'>Intranet</a></li>";
         echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
@@ -80,7 +127,12 @@ switch ($cadena) {
         echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
         echo "<li><a href='servicios.php'>Servicios</a></li>";
         echo "<li><a href='catalogo.php'>Catálogo</a></li>";
-        echo "<li><a href='capacitacion.php'>Capacitación</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
         echo "<li class='active'><a href='aulaVirtual.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
@@ -90,10 +142,60 @@ switch ($cadena) {
         echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
         echo "<li><a href='servicios.php'>Servicios</a></li>";
         echo "<li><a href='catalogo.php'>Catálogo</a></li>";
-        echo "<li><a href='capacitacion.php'>Capacitación</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
         echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
         echo "<li class='active'><a href='contacto.php'>Contacto</a></li>";
+        break;
+    case 'cosecha-de-agua.php':
+        echo "<li><a href='index.php'>Inicio</a></li>";
+        echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
+        echo "<li><a href='servicios.php'>Servicios</a></li>";
+        echo "<li><a href='catalogo.php'>Catálogo</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
+        echo "<li><a href='intranet.php'>Intranet</a></li>";
+        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='contacto.php'>Contacto</a></li>";
+        break;
+    case 'matricula.php':
+        echo "<li><a href='index.php'>Inicio</a></li>";
+        echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
+        echo "<li><a href='servicios.php'>Servicios</a></li>";
+        echo "<li><a href='catalogo.php'>Catálogo</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
+        echo "<li><a href='intranet.php'>Intranet</a></li>";
+        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='contacto.php'>Contacto</a></li>";
+        break;
+    case 'asesor.php':
+        echo "<li><a href='index.php'>Inicio</a></li>";
+        echo "<li><a href='nosotros.php'>Quienes somos</a></li>";
+        echo "<li><a href='servicios.php'>Servicios</a></li>";
+        echo "<li><a href='catalogo.php'>Catálogo</a></li>";
+        echo "<li><a href='cursos.php'>Capacitación<i class='fa fa-angle-down'></i></a>
+                    <ul class='drop-down'>
+                        <li class='active'><a href='cursos.php'>Cursos</a></li>
+                        <li><a href='diplomados.php'>Diplomados</a></li>
+                    </ul>
+                </li>";
+        echo "<li><a href='intranet.php'>Intranet</a></li>";
+        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
 }
 ?>
