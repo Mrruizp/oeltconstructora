@@ -28,8 +28,8 @@
 								<div class="single-widget links">
 									<h2>Nosotros</h2>
 									<ul class="list">
-										<li><a href="http://www.oeltconstructora.com/acerca.html"><i class="fa fa-angle-right"></i>Acerca OELT Constructora</a></li>
-										<li><a href="http://www.oeltconstructora.com/servicios.html"><i class="fa fa-angle-right"></i>Nuestros servicios</a></li>
+										<li><a href="nosotros.php"><i class="fa fa-angle-right"></i>Acerca OELT Constructora</a></li>
+										<li><a href="servicios.php"><i class="fa fa-angle-right"></i>Nuestros servicios</a></li>
 										<li><a href="#"><i class="fa fa-angle-right"></i>Políticas</a></li>
 									</ul>
 								</div>

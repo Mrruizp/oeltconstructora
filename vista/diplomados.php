@@ -158,7 +158,7 @@
                                             </div>
                                             <div class="project-bottom">
                                                 <h4>
-                                                    <a href="diplomado_detalles_ingenieria-estructural.html">
+                                                    <a href="diplomado_detalles_ingenieria-estructural.php">
                                                         Más detalles
                                                     </a>
                                                     <span class="category">
