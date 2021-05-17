@@ -27,7 +27,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'nosotros.php':
@@ -42,7 +42,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'servicios.php':
@@ -57,7 +57,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'catalogo.php':
@@ -72,7 +72,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'cursos.php':
@@ -88,7 +88,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'diplomados.php':
@@ -104,7 +104,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'intranet.php':
@@ -119,7 +119,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li class='active'><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'aulaVirtual.php':
@@ -134,7 +134,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li class='active'><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li class='active'><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'contacto.php':
@@ -149,7 +149,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li class='active'><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'cosecha-de-agua.php':
@@ -164,7 +164,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'matricula.php':
@@ -179,7 +179,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
     case 'asesor.php':
@@ -194,7 +194,7 @@ switch ($cadena) {
                     </ul>
                 </li>";
         echo "<li><a href='intranet.php'>Intranet</a></li>";
-        echo "<li><a href='aulaVirtual.php'>Aula Virtual</a></li>";
+        echo "<li><a href='http://www.oeltconstructora.com/aula/login/index.php'>Aula Virtual</a></li>";
         echo "<li><a href='contacto.php'>Contacto</a></li>";
         break;
 }

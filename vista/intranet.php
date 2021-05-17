@@ -8,9 +8,7 @@
     </head>
     <body class="box-bg">
         <!-- livezilla.net PLACE SOMEWHERE IN BODY -->
-        <!--
-<script type="text/javascript" id="e4a954c9fa54a002c0bec2df55e05286" src="http://www.oeltconstructora.com/chat/script.php?id=e4a954c9fa54a002c0bec2df55e05286" defer></script>
--->
+
         <!-- livezilla.net PLACE SOMEWHERE IN BODY -->
         <div class="boxed-layout">
             <!-- Start Header -->
