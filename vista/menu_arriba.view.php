@@ -12,7 +12,7 @@
 <?php
 $url    = $_SERVER["REQUEST_URI"];
 $cadena = substr($url, 15);
-print_r($cadena);
+//print_r($cadena);
 
 switch ($cadena) {
     case 'index.php':

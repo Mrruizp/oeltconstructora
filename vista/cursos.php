@@ -115,37 +115,24 @@
                                     </div>
                                     <!--/ End Single Project -->
                                 </div>
-                                <div class="cbp-item gerencia-administracion-en-ingenieria-civil">
+                                <div class="cbp-item gerencia-administracion-en-ingenieria-civil"><div class="cbp-item-wrapper">
                                     <!-- Single Project -->
                                     <div class="project-single">
                                         <div class="project-inner">
                                             <div class="project-head">
-                                                <img alt="DIRECCION ECONÓMICA Y FINANCIERA EN LA CONSTRUCCIÓN" src="http://www.oeltconstructora.com/img/cursos/direccion-economica-y-financiera-en-la-construccion.jpg"/>
+                                                <img src="http://www.oeltconstructora.com/img/cursos/ampliaciones-suspension-de-plazos-y-adicionales-de-obras-publicas.jpg" alt="AMPLIACIONES, SUSPENSIÓN DE PLAZOS Y ADICIONALES DE OBRAS PÚBLICAS">
                                             </div>
                                             <div class="project-bottom">
-                                                <h4>
-                                                    <a href="direccion-economica-y-financiera-en-la-construccion.php">
-                                                        Más detalles
-                                                    </a>
-                                                    <span class="category">
-                                                        DIRECCION ECONÓMICA Y FINANCIERA EN LA CONSTRUCCIÓN
-                                                    </span>
-                                                </h4>
+                                                <h4><a href="http://www.oeltconstructora.com/curso/ampliaciones-suspension-de-plazos-y-adicionales-de-obras-publicas.html">Más detalles</a><span class="category">AMPLIACIONES, SUSPENSIÓN DE PLAZOS Y ADICIONALES DE OBRAS PÚBLICAS</span></h4>
                                             </div>
                                             <div class="button">
-                                                <a class="btn" data-fancybox="gallery" href="http://www.oeltconstructora.com/img/cursos/direccion-economica-y-financiera-en-la-construccion.jpg">
-                                                    <i class="fa fa-photo">
-                                                    </i>
-                                                </a>
-                                                <a class="btn" href="direccion-economica-y-financiera-en-la-construccion.php">
-                                                    <i class="fa fa-link">
-                                                    </i>
-                                                </a>
+                                                <a data-fancybox="gallery" href="http://www.oeltconstructora.com/img/cursos/ampliaciones-suspension-de-plazos-y-adicionales-de-obras-publicas.jpg" class="btn"><i class="fa fa-photo"></i></a>
+                                                <a href="http://www.oeltconstructora.com/curso/ampliaciones-suspension-de-plazos-y-adicionales-de-obras-publicas.html" class="btn"><i class="fa fa-link"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <!--/ End Single Project -->
-                                </div>
+                                </div></div>
                                 <div class="cbp-item estructuras">
                                     <!-- Single Project -->
                                     <div class="project-single">

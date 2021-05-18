@@ -2,7 +2,7 @@
 
 require_once 'configuracion.php';
 //require_once '../util/functions/Helper.class.php';
-date_default_timezone_set("America/Caracas");
+
 class Conexion
 {
     protected $dblink;

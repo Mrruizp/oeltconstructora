@@ -1,3 +1,14 @@
+<?php
+require_once 'validar.datos.sesion.view.php';
+?>
+<?php
+
+//Creando y asignando un valor a la variable $_POST["dniUsuarioSesion"];
+$_POST["s_usuario"] = $usuario;
+
+//require_once '../controller/perfil.usuario.leer.datos.controller.php';
+
+?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
@@ -185,7 +196,7 @@
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        adminoelt_ruiz
+                                                        <?php echo $_POST["s_usuario"]; ?>
                                                         <i class="fa fa-angle-down">
                                                         </i>
                                                     </a>
@@ -205,7 +216,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a data-target="#modalsalir" data-toggle="modal" href="#">
+                                                            <a href="../controlador/sesion.cerrar.controller.php">
                                                                 <i class="fa fa-sign-out">
                                                                 </i>
                                                                 Cerrar Sesión
@@ -233,7 +244,7 @@
                         Inicio
                     </h3>
                     <h4>
-                        Bienvenido Renzo Ruiz
+                        Bienvenido <?php echo $_POST["s_usuario"]; ?>
                     </h4>
                     <br>
                         <div class="row">
@@ -339,29 +350,7 @@
             <!--/ End footer -->
         </div>
         <!-- Jquery -->
-        <script src="http://localhost/oelt/js/jquery.min.js" type="text/javascript">
-        </script>
-        <!-- Bootstrap JS -->
-        <script src="http://localhost/oelt/js/bootstrap.min.js" type="text/javascript">
-        </script>
-        <!-- Modernizer JS -->
-        <script src="http://localhost/oelt/js/modernizr.min.js" type="text/javascript">
-        </script>
-        <!-- Tromas Plugins -->
-        <script src="http://localhost/oelt/js/theme-plugins.js" type="text/javascript">
-        </script>
-        <!-- Google Map JS -->
-        <script src="http://localhost/oelt/js/googlemapapi.js" type="text/javascript">
-        </script>
-        <!-- Main JS -->
-        <script src="http://localhost/oelt/js/main.js" type="text/javascript">
-        </script>
-        <script src="http://localhost/oelt/js/moment.min.js">
-        </script>
-        <script src="http://localhost/oelt/admin/datepicker/js/bootstrap-datepicker.js">
-        </script>
-        <script charset="UTF-8" src="http://localhost/oelt/admin/datepicker/locales/bootstrap-datepicker.es.min.js">
-        </script>
+            <?php include_once 'scripts.view.php';?>
         <!-- Modal -->
         <div aria-hidden="true" aria-labelledby="modalaviso" class="modal fade" id="aviso" role="dialog" tabindex="-1">
             <div class="modal-dialog" role="document">
