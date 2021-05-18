@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
-
+        <!-- Meta tag -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="OELT CONSTRUCTORA una empresa especializada en el diseño, ejecución, supervisión de obras civiles, industriales y edificaciones y capacitación a profesionales de entidades públicas y privada">
+        <meta name="keywords" content="OELT Constructora, Cursos, Proyectos, diseño, supervición de obras Civiles, Industriales, Edificaciones.">
+        <meta name="author" content="Bexarstudio">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@OConstructora" />
+        <meta name="twitter:creator" content="@OConstructora" />
+        <meta property="og:title" content="OELT Constructora" />
+        <meta property="og:description" content="OELT CONSTRUCTORA una empresa especializada en el diseño, ejecución, supervisión de obras civiles, industriales y edificaciones y capacitación a profesionales de entidades públicas y privada" />
+        <meta property="og:image" content="http://www.oeltconstructora.com/img/portada.jpg" />
+        <meta property="og:url" content="http://www.oeltconstructora.com/" />
+        <meta name="copyright" content="Bexarstudio">
         <title>OELT Constructora | Ingresar</title>
-        <?php include_once 'estilos.view.php';?>
+        <link rel="shortcut icon" href="http://www.oeltconstructora.com/images/favicon.png">
 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="http://www.oeltconstructora.com/css/bootstrap.min.css">
+        <!-- Tromas CSS -->
+        <link rel="stylesheet" href="http://www.oeltconstructora.com/css/theme-plugins.css">
+        <link rel="stylesheet" href="http://www.oeltconstructora.com/style.css">
+        <link rel="stylesheet" href="http://www.oeltconstructora.com/css/responsive.css">
+        <link href="http://www.oeltconstructora.com/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	    <link href="http://www.oeltconstructora.com/admin/datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet">
+	    <link rel="stylesheet" href="../util/oelt/css/fontawesome.min.css">
+	    <link rel="stylesheet" href="../util/oelt/css/fontawesome-all.min.css">
+	    <link rel="stylesheet" href="../util/oelt/css/theme-plugins.css">
+        <!-- Tromas Color -->
+        <link rel="stylesheet" href="http://www.oeltconstructora.com/css/skin/skin1.css">
+        <script type="text/javascript" src="http://www.oeltconstructora.com/admin/tinymce/tinymce.min.js"></script>
+		  <script type="text/javascript">
+		  tinymce.init({
+		  selector: '#mytextarea',
+		  language: "es",
+		  content_css: "http://www.oeltconstructora.com/css/bootstrap.min.css",
+          content_css: "http://www.oeltconstructora.com/css/theme-plugins.css",
+          content_css: "http://www.oeltconstructora.com/style.css",
+          content_css: "http://www.oeltconstructora.com/css/responsive.css",
+		  height: 200,
+		  menubar: false,
+		  convert_urls : false,
+		  plugins: [
+		    'advlist autolink lists link image charmap print preview anchor',
+		    'searchreplace visualblocks code fullscreen',
+		    'insertdatetime media table contextmenu paste textcolor textpattern colorpicker code '
+		  ],
+		  toolbar: 'undo redo | insert | styleselect | forecolor backcolor | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | table | code | textcolor | textpattern',
+
+		});
+		  </script>
+        <link rel="stylesheet" href="https://usefontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
     <body class="box-bg">
 
@@ -17,7 +74,7 @@
 					<div class="row">
 				<div class="col-lg-12 text-center">
 				<center>
-				<img src="../images/logo.png" alt="...">
+				<img src="http://www.oeltconstructora.com//images/logo.png" alt="...">
 				</center>
 					<h2 class="section-heading">Administrativo OELT Constructora</h2>
 					<p class="text-muted text-center">Ingrese su Usuario o Email y la Contraseña para ingresar al Administrativo.</p>
@@ -64,7 +121,23 @@
 				</section>
 
     <!-- Jquery -->
-            <?php include_once 'scripts.view.php';?>
+            <script src="http://www.oeltconstructora.com/js/jquery.min.js" type="text/javascript"></script>
+            <!-- Bootstrap JS -->
+            <script src="http://www.oeltconstructora.com/js/bootstrap.min.js" type="text/javascript"></script>
+            <!-- Modernizer JS -->
+            <script src="http://www.oeltconstructora.com/js/modernizr.min.js" type="text/javascript"></script>
+            <!-- Tromas Plugins -->
+            <script src="http://www.oeltconstructora.com/js/theme-plugins.js" type="text/javascript"></script>
+            <!-- Google Map JS -->
+            <script src="http://www.oeltconstructora.com/js/googlemapapi.js" type="text/javascript"></script>
+            <!-- Main JS -->
+            <script src="http://www.oeltconstructora.com/js/main.js" type="text/javascript"></script>
+            <script src="http://www.oeltconstructora.com/js/moment.min.js"></script>
+            <script src="http://www.oeltconstructora.com/js/bootstrap-datetimepicker.min.js"></script>
+			<script src="http://www.oeltconstructora.com/js/bootstrap-datetimepicker.es.js"></script>
+		    <script src="http://www.oeltconstructora.com/admin/datepicker/js/bootstrap-datepicker.js"></script>
+		    <script src="http://www.oeltconstructora.com/admin/datepicker/locales/bootstrap-datepicker.es.min.js" charset="UTF-8"></script>
+
 <!-- Modal -->
         <div class="modal fade" id="aviso" tabindex="-1" role="dialog" aria-labelledby="modalaviso" aria-hidden="true">
 			<div class="modal-dialog" role="document">
@@ -114,8 +187,7 @@
 
     </script>
 
-    <script src="js/sesionValidar.js" type="text/javascript"></script>
-    <!--<script type="text/javascript">
+    <script type="text/javascript">
         $('#BotonGuardar').on('click', function() {
             var $btn = $(this).button('loading');
 
@@ -139,7 +211,7 @@
 
         });
     </script>
-    -->
+
 
 
 

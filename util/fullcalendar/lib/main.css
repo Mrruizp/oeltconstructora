@@ -213,12 +213,13 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     border-color: var(--fc-button-hover-border-color, #1a252f);
   }
 .fc .fc-button-primary:disabled { /* not DRY */
-    color: #fff;
+    color: white;
     color: var(--fc-button-text-color, #fff);
     background-color: #2C3E50;
     background-color: var(--fc-button-bg-color, #2C3E50);
     border-color: #2C3E50;
     border-color: var(--fc-button-border-color, #2C3E50); /* overrides :hover */
+    
   }
 .fc .fc-button-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
@@ -287,6 +288,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
   }
 .fc .fc-toolbar.fc-header-toolbar {
     margin-bottom: 1.5em;
+    background-color: #3788d8;
   }
 .fc .fc-toolbar.fc-footer-toolbar {
     margin-top: 1.5em;
@@ -294,6 +296,11 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-toolbar-title {
     font-size: 1.75em;
     margin: 0;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 33px;
+    
   }
 .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
     margin-left: .75em; /* space between */
@@ -425,14 +432,18 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 .fc .fc-view-harness-active > .fc-view {
     position: absolute;
-    top: 0;
+    top: -10px;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 15px;
+    width: 330px;
+    height: 260px
   }
 .fc .fc-col-header-cell-cushion {
     display: inline-block; /* x-browser for when sticky (when multi-tier header) */
     padding: 2px 4px;
+    font-weight: bold;
+    color: black;
   }
 .fc .fc-bg-event,
   .fc .fc-non-business,
@@ -712,8 +723,8 @@ A HORIZONTAL event
     z-index: 1; /* container inner z-index's because <tr>s can't do it */
   }
 .fc .fc-daygrid-day.fc-day-today {
-      background-color: rgba(255, 220, 40, 0.15);
-      background-color: var(--fc-today-bg-color, rgba(255, 220, 40, 0.15));
+      background-color: rgba(55, 136, 216, 0.15);
+      background-color: var(--fc-today-bg-color, rgba(55, 136, 216, 0.15));
     }
 .fc .fc-daygrid-day-frame {
     position: relative;
@@ -740,6 +751,7 @@ A HORIZONTAL event
     position: relative;
     z-index: 4;
     padding: 4px;
+    color: black;
   }
 .fc {
 
@@ -1133,8 +1145,8 @@ A VERTICAL event
   left: 0;
   }
 .fc .fc-timegrid-col.fc-day-today {
-      background-color: rgba(255, 220, 40, 0.15);
-      background-color: var(--fc-today-bg-color, rgba(255, 220, 40, 0.15));
+      background-color: #3788d8;
+      background-color: var(--fc-today-bg-color, #3788d8);
     }
 .fc .fc-timegrid-col-frame {
     min-height: 100%; /* liquid-hack is below */
